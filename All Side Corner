@@ -1,0 +1,11 @@
+        mainView.clipsToBounds = true
+        mainView.layer.cornerRadius = 15
+        mainView.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMinXMinYCorner] // Top Corner
+        
+        viewPaid.clipsToBounds = true
+        viewPaid.layer.cornerRadius = 6
+        viewPaid.layer.maskedCorners = [.layerMinXMinYCorner, .layerMinXMaxYCorner] // Left Corner
+        
+        viewUnPaid.clipsToBounds = true
+        viewUnPaid.layer.cornerRadius = 6
+        viewUnPaid.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMaxXMaxYCorner] // Right Corner
