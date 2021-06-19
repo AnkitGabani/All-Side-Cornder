@@ -9,3 +9,8 @@
         viewUnPaid.clipsToBounds = true
         viewUnPaid.layer.cornerRadius = 6
         viewUnPaid.layer.maskedCorners = [.layerMaxXMinYCorner, .layerMaxXMaxYCorner] // Right Corner
+
+
+        viewPopupChanegs.clipsToBounds = true
+        viewPopupChanegs.layer.cornerRadius = 10
+        viewPopupChanegs.layer.maskedCorners = [.layerMinXMaxYCorner, . layerMaxXMaxYCorner] // Bottom Corner
