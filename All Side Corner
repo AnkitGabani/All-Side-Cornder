@@ -14,3 +14,11 @@
         viewPopupChanegs.clipsToBounds = true
         viewPopupChanegs.layer.cornerRadius = 10
         viewPopupChanegs.layer.maskedCorners = [.layerMinXMaxYCorner, . layerMaxXMaxYCorner] // Bottom Corner
+        
+        
+        
+layerMinXMinYCorner	top left corner
+layerMaxXMinYCorner	top right corner
+layerMinXMaxYCorner	bottom left corner
+layerMaxXMaxYCorner	bottom right corner
+
